@@ -1,0 +1,8 @@
+prefix=/home/han/catkin_ws/src/calibration_camera_lidar/ls_calibration/autoware_build_flags/build/devel
+
+Name: autoware_build_flags
+Description: Description of autoware_build_flags
+Version: 1.9.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
