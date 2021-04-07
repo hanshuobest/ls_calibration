@@ -19,7 +19,7 @@ find_package(catkin REQUIRED COMPONENTS
         autoware_msgs
         )
 set(CMAKE_PREFIX_PATH /home/han/3rdParty/opencv-3.2.0/install/share/OpenCV)
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 3  REQUIRED)
 
 set(CMAKE_AUTOMOC ON)
 #set(CMAKE_AUTOUIC ON)
