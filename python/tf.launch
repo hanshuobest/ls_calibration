@@ -1,0 +1,12 @@
+<launch>
+    <!-- kobuki -->
+    <!-- <include file="$(find kobuki_node)/launch/minimal.launch" />
+    <include file="$(find lidar)/launch/lidar.launch" /> -->
+
+    <node pkg="tf" type="static_transform_publisher" name="laser_to_base_link2" args="-0.003931042902832915 -0.003295022732754036 0.12237279244077454
+    -1.61267583659206 0.03658871364142263 0.07524887948616094 /base_footprint /laser 20" />
+    <node pkg="tf" type="static_transform_publisher" name="tof_to_base_link2" args="0.20858668689999998 -0.016197355 0.0524353592 -1.5602945926685428
+    0.002684770688399044 -1.5687185596753779 /base_footprint /pico_camera_depth_frame  20" />
+    
+
+</launch>
